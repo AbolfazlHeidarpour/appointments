@@ -1,0 +1,50 @@
+ol {
+  width: 15%;
+  padding: 0px;
+  float: left;
+  list-style-type: none;
+  list-style-position: inside;
+  display: block;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+button {
+  background-color: blueviolet;
+  border-radius: 2px;
+  padding: 5px;
+  width: 60px;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(87, 7, 87);
+}
+
+.vertical-divider {
+  width: 0px;
+  border-left: 2px solid black;
+  margin-top: 16px;
+  height: 300px;
+  float: left;
+}
+
+button.appointment-delete-button {
+  margin-right: 3px;
+  background-color: white;
+  color: red;
+  border: none;
+}
+
+button.appointment-delete-button:hover {
+  background-color: rgb(211, 206, 206);
+}
+
+p {
+  margin-top: 16px;
+  width: 80%;
+  float: right;
+}
